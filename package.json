@@ -1,0 +1,58 @@
+{
+  "name": "teleguard",
+  "version": "1.0.1",
+  "description": "A lightweight, database-agnostic phone number validation and OTP verification utility for modern web applications.",
+  "keywords": [
+    "phone-verification",
+    "otp",
+    "sms-verification",
+    "two-factor-authentication",
+    "2fa",
+    "phone-validation",
+    "e164",
+    "security",
+    "rate-limiting",
+    "auth",
+    "verification-code",
+    "sms-gateway",
+    "twilio",
+    "nodejs",
+    "typescript",
+    "express",
+    "backend",
+    "sms-pumping",
+    "toll-fraud",
+    "bot-protection",
+    "anti-spam",
+    "throttle",
+    "login-security",
+    "user-verification",
+    "redis",
+    "memory-cache",
+    "backend-utility",
+    "database-agnostic",
+    "multi-database",
+    "mysql",
+    "postgresql",
+    "libphonenumber",
+    "phone-parser",
+    "international-phone",
+    "verification-api",
+    "mern"
+  ],
+  "homepage": "https://github.com/kormoi/teleguard#readme",
+  "bugs": {
+    "url": "https://github.com/kormoi/teleguard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kormoi/teleguard.git"
+  },
+  "license": "MIT",
+  "author": "MD Nasiruddin Ahmed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
