@@ -15,15 +15,20 @@ TeleGuard is an intelligent, high-flexibility phone number validation and format
 
 ## Core Installation Setup
 
-Place `countryData.js`, `phoneValidator.js`, and `index.js` into your backend module root configuration:
+Install the package via npm:
 
-```javascript
-const TeleGuard = require('./index');
+```bash
+npm install teleguard
+```
+Require and initialize it in your backend module:
+
+```js
+const TeleGuard = require('teleguard');
 const tg = new TeleGuard({ throwOnError: false });
 ```
 
 ## Implementation Examples
-1. Automatic Global Lookup Strategy
+### 1. Automatic Global Lookup Strategy
 Pass a single raw phone number containing arbitrary formatting or whitespace. TeleGuard will automatically resolve the country, strip the formatting, and validate against operator length configurations.
 
 
@@ -45,7 +50,7 @@ console.log(report);
 const reportAlt = tg.verify("+8801744327539");
 ```
 
-2. Explicit Country Validation Layer
+### 2. Explicit Country Validation Layer
 Validate an incoming local payload string against an explicit target region via its `Alpha2`, `Alpha3`, or dialing code identifier. Handles inputs both with or without a local domestic prefix `0` flawlessly.
 
 
@@ -65,7 +70,7 @@ const check4 = tg.verifyByCountry("+88", "01744327539");
 ```
 
 
-3. Fluent Chain Dot-Notation Reads
+### 3. Fluent Chain Dot-Notation Reads
 Perfect for clean frontend-backend validation middleware pipelines. Access structured parameters directly as native object properties without running method executions.
 
 
