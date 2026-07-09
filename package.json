@@ -1,6 +1,6 @@
 {
   "name": "teleguard",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "A lightweight, database-agnostic phone number validation and OTP verification utility for modern web applications.",
   "keywords": [
     "phone-verification",
